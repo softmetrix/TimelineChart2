@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables';
 
 @font-face {
   font-family: '#{$sfmx-font-family}';
@@ -11,107 +11,108 @@
   font-style: normal;
 }
 
-[class^="sfmx-"], [class*=" sfmx-"] {
-  font-family: '#{$sfmx-font-family}' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
+[class^="sfmx-"],
+[class*=" sfmx-"] {
+  font-family: '#{$sfmx-font-family}', serif;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
 }
 
 .sfmx-flag-right {
-  &:before {
+  &::before {
     content: $sfmx-flag-right;
   }
 }
 
 .sfmx-flag-left {
-  &:before {
+  &::before {
     content: $sfmx-flag-left;
   }
 }
 
 .sfmx-subject {
-  &:before {
+  &::before {
     content: $sfmx-subject;
   }
 }
 
 .sfmx-square {
-  &:before {
+  &::before {
     content: $sfmx-square;
   }
 }
 
 .sfmx-arrow-head {
-  &:before {
+  &::before {
     content: $sfmx-arrow-head;
   }
 }
 
 .sfmx-arrow-tail {
-  &:before {
+  &::before {
     content: $sfmx-arrow-tail;
   }
 }
 
 .sfmx-circle {
-  &:before {
+  &::before {
     content: $sfmx-circle;
   }
 }
 
 .sfmx-romb {
-  &:before {
+  &::before {
     content: $sfmx-romb;
   }
 }
 
 .sfmx-star {
-  &:before {
+  &::before {
     content: $sfmx-star;
   }
 }
 
 .sfmx-triangle-right {
-  &:before {
+  &::before {
     content: $sfmx-triangle-right;
   }
 }
 
 .sfmx-triangle-up {
-  &:before {
+  &::before {
     content: $sfmx-triangle-up;
   }
 }
 
 .sfmx-triangle-left {
-  &:before {
+  &::before {
     content: $sfmx-triangle-left;
   }
 }
 
 .sfmx-triangle-down {
-  &:before {
+  &::before {
     content: $sfmx-triangle-down;
   }
 }
 
 .sfmx-arrow {
-  &:before {
+  &::before {
     content: $sfmx-arrow;
   }
 }
 
 .svg-arrow {
   display: inline-block;
+  fill: $color-primary;
   float: left;
   height: 32px;
-  fill: $color-primary;
 }
 
 .arrow-tail {
