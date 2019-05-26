@@ -5,22 +5,16 @@
  */
 
 /**
+ * Import Helper module
+ */
+import HE from 'lib/helper.js';
+
+/**
  * Main JS object (literal)
  *
  * @type {{}}
  */
 const SFMX = {};
-
-/**
- * Document get Element shorthand
- *
- * @param ele [element class, id...]
- * @returns mixed [selected element or false]
- */
-SFMX.ele = function (ele) {
-    let element = document.querySelector(ele);
-    return element !== null ? element : false;
-};
 
 /**
  * Arrow creator
@@ -39,10 +33,10 @@ SFMX.arrow = function (ele, c, w, h, hideTail, hideHead) {
     // Sum of tail + head
     let tailHead = parseInt(10 + 24);
     // Prevent if arrow size smaller then tail + head
-    SFMX.ele(ele).style.width = w < tailHead ? tailHead + 1 + 'px' : w + 'px';
-    SFMX.ele(ele).style.height = h + 'px';
+    HE.ge(ele).style.width = w < tailHead ? tailHead + 1 + 'px' : w + 'px';
+    HE.ge(ele).style.height = h + 'px';
     // noinspection JSUndefinedPropertyAssignment
-    SFMX.ele(ele).innerHTML = SFMX.arrowSvg(c, w, h, hideTail, hideHead);
+    HE.ge(ele).innerHTML = SFMX.arrowSvg(c, w, h, hideTail, hideHead);
 };
 
 /**
