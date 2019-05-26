@@ -1,0 +1,127 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$sfmx-font-family}';
+  src: url('#{$sfmx-font-path}/#{$sfmx-font-family}.eot?5cwymq');
+  src: url('#{$sfmx-font-path}/#{$sfmx-font-family}.eot?5cwymq#iefix') format('embedded-opentype'),
+  url('#{$sfmx-font-path}/#{$sfmx-font-family}.ttf?5cwymq') format('truetype'),
+  url('#{$sfmx-font-path}/#{$sfmx-font-family}.woff?5cwymq') format('woff'),
+  url('#{$sfmx-font-path}/#{$sfmx-font-family}.svg?5cwymq##{$sfmx-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="sfmx-"], [class*=" sfmx-"] {
+  font-family: '#{$sfmx-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sfmx-flag-right {
+  &:before {
+    content: $sfmx-flag-right;
+  }
+}
+
+.sfmx-flag-left {
+  &:before {
+    content: $sfmx-flag-left;
+  }
+}
+
+.sfmx-subject {
+  &:before {
+    content: $sfmx-subject;
+  }
+}
+
+.sfmx-square {
+  &:before {
+    content: $sfmx-square;
+  }
+}
+
+.sfmx-arrow-head {
+  &:before {
+    content: $sfmx-arrow-head;
+  }
+}
+
+.sfmx-arrow-tail {
+  &:before {
+    content: $sfmx-arrow-tail;
+  }
+}
+
+.sfmx-circle {
+  &:before {
+    content: $sfmx-circle;
+  }
+}
+
+.sfmx-romb {
+  &:before {
+    content: $sfmx-romb;
+  }
+}
+
+.sfmx-star {
+  &:before {
+    content: $sfmx-star;
+  }
+}
+
+.sfmx-triangle-right {
+  &:before {
+    content: $sfmx-triangle-right;
+  }
+}
+
+.sfmx-triangle-up {
+  &:before {
+    content: $sfmx-triangle-up;
+  }
+}
+
+.sfmx-triangle-left {
+  &:before {
+    content: $sfmx-triangle-left;
+  }
+}
+
+.sfmx-triangle-down {
+  &:before {
+    content: $sfmx-triangle-down;
+  }
+}
+
+.sfmx-arrow {
+  &:before {
+    content: $sfmx-arrow;
+  }
+}
+
+.svg-arrow {
+  display: inline-block;
+  float: left;
+  height: 32px;
+  fill: $color-primary;
+}
+
+.arrow-tail {
+  width: 10px;
+}
+
+.arrow-body {
+  width: 50px;
+}
+
+.arrow-head {
+  width: 24px;
+}

@@ -1,0 +1,80 @@
+//urls
+$url_0: url(/src/assets/images/sprite/sprite.svg);
+
+.sfmx {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: $url_0;
+}
+
+.sfmx-arrow-long {
+  width: 30px;
+  height: 32px;
+  background-position: 0 0;
+}
+
+.sfmx-arrow-body {
+  width: 0;
+  height: 32px;
+  background-position: -64px 0;
+}
+
+.sfmx-arrow-head {
+  width: 24px;
+  height: 32px;
+  background-position: -128px 0;
+}
+
+.sfmx-arrow-tail {
+  width: 10px;
+  height: 32px;
+  background-position: -192px 0;
+}
+
+.sfmx-circle {
+  width: 32px;
+  height: 32px;
+  background-position: -256px 0;
+}
+
+.sfmx-romb {
+  width: 32px;
+  height: 32px;
+  background-position: -320px 0;
+}
+
+.sfmx-star {
+  width: 32px;
+  height: 32px;
+  background-position: -384px 0;
+}
+
+.sfmx-triangle-right {
+  width: 32px;
+  height: 32px;
+  background-position: -448px 0;
+}
+
+.sfmx-triangle-up {
+  width: 32px;
+  height: 32px;
+  background-position: -512px 0;
+}
+
+.sfmx-triangle-left {
+  width: 32px;
+  height: 32px;
+  background-position: -576px 0;
+}
+
+.sfmx-triangle-down {
+  width: 32px;
+  height: 32px;
+  background-position: -640px 0;
+}
+
+.sfmx-arrow {
+  width: 32px;
+  height: 32px;
+  background-position: -704px 0;
+}

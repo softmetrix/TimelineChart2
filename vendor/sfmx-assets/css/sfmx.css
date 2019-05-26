@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "sfmx-fonts";
+    src: url("../fonts/sfmx-fonts.eot?5cwymq");
+    src: url("../fonts/sfmx-fonts.eot?5cwymq#iefix") format("embedded-opentype"), url("../fonts/sfmx-fonts.ttf?5cwymq") format("truetype"), url("../fonts/sfmx-fonts.woff?5cwymq") format("woff"), url("../fonts/sfmx-fonts.svg?5cwymq#sfmx-fonts") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="sfmx-"], [class*=" sfmx-"] {
+    font-family: "sfmx-fonts" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.sfmx-flag-right:before {
+    content: "";
+}
+
+.sfmx-flag-left:before {
+    content: "";
+}
+
+.sfmx-subject:before {
+    content: "";
+}
+
+.sfmx-square:before {
+    content: "";
+}
+
+.sfmx-arrow-head:before {
+    content: "";
+}
+
+.sfmx-arrow-tail:before {
+    content: "";
+}
+
+.sfmx-circle:before {
+    content: "";
+}
+
+.sfmx-romb:before {
+    content: "";
+}
+
+.sfmx-star:before {
+    content: "";
+}
+
+.sfmx-triangle-right:before {
+    content: "";
+}
+
+.sfmx-triangle-up:before {
+    content: "";
+}
+
+.sfmx-triangle-left:before {
+    content: "";
+}
+
+.sfmx-triangle-down:before {
+    content: "";
+}
+
+.sfmx-arrow:before {
+    content: "";
+}
+
+.svg-arrow {
+    display: inline-block;
+    float: left;
+    height: 32px;
+    fill: "#007bff";
+}
+
+.arrow-tail {
+    width: 10px;
+}
+
+.arrow-body {
+    width: 50px;
+}
+
+.arrow-head {
+    width: 24px;
+}
+
+/*# sourceMappingURL=sfmx.css.map */

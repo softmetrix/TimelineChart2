@@ -1,0 +1,4 @@
+.DS_Store
+.idea
+src/assets/scss/.sass-cache
+test/.sass-cache
