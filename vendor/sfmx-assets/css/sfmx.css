@@ -7,79 +7,80 @@
     font-style: normal;
 }
 
-[class^="sfmx-"], [class*=" sfmx-"] {
-    font-family: "sfmx-fonts" !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
+[class^="sfmx-"],
+[class*=" sfmx-"] {
+    font-family: "sfmx-fonts", serif;
     -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    speak: none;
+    text-transform: none;
 }
 
-.sfmx-flag-right:before {
+.sfmx-flag-right::before {
     content: "";
 }
 
-.sfmx-flag-left:before {
+.sfmx-flag-left::before {
     content: "";
 }
 
-.sfmx-subject:before {
+.sfmx-subject::before {
     content: "";
 }
 
-.sfmx-square:before {
+.sfmx-square::before {
     content: "";
 }
 
-.sfmx-arrow-head:before {
+.sfmx-arrow-head::before {
     content: "";
 }
 
-.sfmx-arrow-tail:before {
+.sfmx-arrow-tail::before {
     content: "";
 }
 
-.sfmx-circle:before {
+.sfmx-circle::before {
     content: "";
 }
 
-.sfmx-romb:before {
+.sfmx-romb::before {
     content: "";
 }
 
-.sfmx-star:before {
+.sfmx-star::before {
     content: "";
 }
 
-.sfmx-triangle-right:before {
+.sfmx-triangle-right::before {
     content: "";
 }
 
-.sfmx-triangle-up:before {
+.sfmx-triangle-up::before {
     content: "";
 }
 
-.sfmx-triangle-left:before {
+.sfmx-triangle-left::before {
     content: "";
 }
 
-.sfmx-triangle-down:before {
+.sfmx-triangle-down::before {
     content: "";
 }
 
-.sfmx-arrow:before {
+.sfmx-arrow::before {
     content: "";
 }
 
 .svg-arrow {
     display: inline-block;
+    fill: "#007bff";
     float: left;
     height: 32px;
-    fill: "#007bff";
 }
 
 .arrow-tail {
